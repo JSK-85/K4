@@ -1,0 +1,55 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+src/__pycache__/
+tests/__pycache__/
+# Ignore all Python cache dirs
+**/__pycache__/
+# Ignore compiled bytecode
+*.py[cod]
+# Ignore distribution/build artifacts
+build/
+dist/
+dist_test/
+*.egg-info/
+# Virtual environments
+.venv/
+venv/
+.env
+# Coverage and test artifacts
+.coverage*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+# Type checking caches
+.mypy_cache/
+.pyre/
+# Logs
+*.log
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+# Packaging
+MANIFEST
+# Temporary data
+*.tmp
+# Ignore generated data files if any
+/data/*.generated
+# turbovec RAG index, generated from gitignored artifacts/
+/data/turbovec/
+# LINGUIST agent model cache (downloaded on first use when enable_linguist=True)
+/data/linguist/
+reports/
+artifacts/
+# Benchmark results are per-machine throughput data, not repo state
+/benchmarks/results.json
+/benchmarks/results.csv
+/agents/
+.playwright-mcp/
+# K4 generated attack artifacts (null results, eureka snapshots)
+K4_*_NULL.json
+K4_BREAKTHROUGH_SNAPSHOT.md
+K4_*_EUREKA.md
+K4_HYPOTHESIS_GRAPH.json

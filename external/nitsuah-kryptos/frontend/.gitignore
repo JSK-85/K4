@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.local
+.vite/
+# Generated null/eureka artifact files
+*_NULL.json
+*_EUREKA.md
+K4_BREAKTHROUGH_SNAPSHOT.md

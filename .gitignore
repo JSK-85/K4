@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python caches & bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Local virtualenvs
+.venv/
+venv/
+env/
+
+# Compiled native binaries (rebuilt with `python3 run_all.py`)
+bin/
+*.o
+*.so
+*.dylib
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tsbuildinfo
+
+# Build temporary files
+_selftest*
+*.tmp
+*.log

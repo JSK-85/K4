@@ -1,0 +1,31 @@
+[
+  {
+    "id": "8f8351e8-0a72-492f-86df-0a034d855e8f",
+    "createdAt": "2026-11-05T09:13:47Z",
+    "title": "Baseline K4 Raw Ciphertext",
+    "section": "K4",
+    "method": "Null Transformation",
+    "operation": "Identity",
+    "key": "NONE",
+    "alphabet": "STANDARD",
+    "input": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+    "output": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+    "notes": "Control baseline representing unmodified ciphertext.\nCrib match: 2/24 (Crib1: 1/13, Crib2: 1/11)\nEnglish z-score: 0.0179",
+    "status": "tested",
+    "provenance": {
+      "appVersion": "k4-triad-bridge-1.0",
+      "inputFingerprint": "k4-canonical-97",
+      "indexConvention": "1-based",
+      "parameters": {},
+      "searchSpace": "Tested 1 candidate configurations",
+      "corpus": "Jim Sanborn Kryptos K4",
+      "scoring": "english_z=0.0179, crib_match=2/24",
+      "seed": "0",
+      "elapsedMs": 0,
+      "hardware": "Mac M-Series Native Engine",
+      "candidatesTested": 1,
+      "holdout": "Crib1=1/13, Crib2=1/11",
+      "negativeControl": "shuffled ciphertext null model"
+    }
+  }
+]

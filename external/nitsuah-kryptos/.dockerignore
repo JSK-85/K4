@@ -1,0 +1,16 @@
+.git
+.github
+.pytest_cache
+.ruff_cache
+.venv
+venv
+__pycache__
+artifacts
+htmlcov
+reports
+*.pyc
+*.pyo
+*.log
+frontend/node_modules
+frontend/dist
+.claude/worktrees
