@@ -1,0 +1,30 @@
+{
+  "status": "null_result",
+  "timestamp": "2026-11-06T07:17:02.214831Z",
+  "run_params": {
+    "attack": "P1_three_layer_composite",
+    "subst_alphabets": [
+      "KRYPTOS",
+      "PALIMPSEST",
+      "ABSCISSA",
+      "STANDARD"
+    ],
+    "grid_sizes": [
+      7,
+      8,
+      10
+    ],
+    "clock_step_seconds": 3600,
+    "clock_states_count": 24,
+    "priority_clock_times": [
+      "13:00:00",
+      "19:00:00"
+    ],
+    "max_perms_per_grid": 720,
+    "total_candidates_checked": 207360,
+    "keyword_eureka_threshold": 4,
+    "ts_start": "2026-11-06T07:17:02.214831Z"
+  },
+  "best_candidates": [],
+  "null_artifact_path": "/Users/jassi/Documents/K4/K4_3LAYER_NULL.json"
+}

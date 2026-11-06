@@ -1,0 +1,216 @@
+{
+  "status": "null_result",
+  "timestamp": "2026-11-06T07:17:38.944173Z",
+  "run_params": {
+    "attack": "P1_three_layer_composite",
+    "subst_alphabets": [
+      "SCHEIDT",
+      "WEBSTER",
+      "STUDEMAN",
+      "KERR",
+      "SANBORN",
+      "LANGLEY",
+      "ELONKA",
+      "OSHEA",
+      "KRYPTOS"
+    ],
+    "grid_sizes": [
+      7,
+      8,
+      10
+    ],
+    "clock_step_seconds": 86400,
+    "clock_states_count": 3,
+    "priority_clock_times": [
+      "13:00:00",
+      "19:00:00"
+    ],
+    "max_perms_per_grid": 120,
+    "total_candidates_checked": 9720,
+    "keyword_eureka_threshold": 4,
+    "ts_start": "2026-11-06T07:17:38.944173Z"
+  },
+  "best_candidates": [
+    {
+      "candidate_text": "EASTOBKJDESSWTODOPRAKNUQFMFNHOLYUJCSOPUREDKAZUBUXDOAXHUTEWAITMITKJAONBOPLPEZGWGZUFTZHMBJPVWWMCFED",
+      "keyword_hits": 1,
+      "instructional_score": -1678.531449188266,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        4,
+        6
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "EASTBOKJDESSTWODOPRANKUQFMFNOHLYUJCSPOUREDKAUZBUXDOAHXUTEWAIMTITKJAOBNOPLPEZWGGZUFTZMHBJPVWWCMFED",
+      "keyword_hits": 1,
+      "instructional_score": -1682.8940100130085,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        5,
+        6
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "PSRTHIDAEPRREATWAMQSOULHCKCLYJAGUHORQUMAPEISVDUYXEASTUGXPWSBTBKTIHSANADKJMPZZFWFUCTZHDKGMVWWQCOJE",
+      "keyword_hits": 1,
+      "instructional_score": -1687.4462461279286,
+      "alpha_name": "KERR",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        4,
+        7,
+        5
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "EASTOKJBDESSWODTOPRAKUCMFMFNHLYOUJCSOURPEDKAZBVTXDOAXUTHEWAITITMKJAONOQZLPEZGGZWUFTZHBJMPVWWMFRQD",
+      "keyword_hits": 1,
+      "instructional_score": -1700.6895071547667,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        6,
+        4,
+        5
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "EASTOKBJDESSWOTDOPRAKUNQFMFNHLOYUJCSOUPREDKAZBUUXDOAXUHTEWAITIMTKJAONOBPLPEZGGWZUFTZHBMJPVWWMFCED",
+      "keyword_hits": 1,
+      "instructional_score": -1709.4068935181629,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        4,
+        5
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "EASTBKJODESSTODWOPRANUCJFMFNOLYHUJCSPUROEDKAUBVYXDOAHUTXEWAIMITTKJAOBOQMLPEZWGZGUFTZMBJHPVWWCFRLD",
+      "keyword_hits": 1,
+      "instructional_score": -1712.6001677208103,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        5
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "EASTJOKBDESSDWOTOPRACKUMFMFNYHLOUJCSROUPEDKAVZBTXDOATXUHEWAITTIMKJAOQNOZLPEZZGGWUFTZJHBMPVWWRMFQD",
+      "keyword_hits": 1,
+      "instructional_score": -1712.9880184949732,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        4,
+        5,
+        6
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "PSRTHDAIEPRRETWAAMQSOLITCKCLYAGJUHORQMAUPEISVUZZXEASTGXUPWSBTKTBIHSANDLLJMPZZWFFUCTZHKGDMVWWQOKRE",
+      "keyword_hits": 1,
+      "instructional_score": -1713.8770062061046,
+      "alpha_name": "KERR",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "EASTJKBODESSDOTWOPRACUNJFMFNYLOHUJCSRUPOEDKAVBUYXDOATUHXEWAITIMTKJAOQOBMLPEZZGWGUFTZJBMHPVWWRFCLD",
+      "keyword_hits": 1,
+      "instructional_score": -1714.5369790610164,
+      "alpha_name": "SANBORN",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        4,
+        7,
+        5
+      ],
+      "clock_time": "00:00:00"
+    },
+    {
+      "candidate_text": "PSRTHIADEPRREAWTAMQSOUIKCKCLYJGAUHORQUAMPEISVDZTXEASTUXGPWSBTBTKIHSANALZJMPZZFFWUCTZHDGKMVWWQCKNE",
+      "keyword_hits": 1,
+      "instructional_score": -1715.0323396074562,
+      "alpha_name": "KERR",
+      "n_cols": 8,
+      "perm": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        4,
+        6,
+        5
+      ],
+      "clock_time": "00:00:00"
+    }
+  ],
+  "null_artifact_path": "/Users/jassi/Documents/K4/K4_P19_ADVISORY_NULL.json"
+}

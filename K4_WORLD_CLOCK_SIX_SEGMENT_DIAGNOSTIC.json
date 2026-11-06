@@ -1,0 +1,98 @@
+{
+  "hypothesis_id": "world_clock_keyed_relabel_x_delimiters_v1",
+  "status": "diagnostic_only",
+  "ciphertext_length": 97,
+  "keyed_alphabet": "KRYPTOSABCDEFGHIJLMNQUVWXZ",
+  "transformation": "inverse keyed-alphabet index relabeling: keyed alphabet letter -> A-Z at same index",
+  "delimiter": "X",
+  "delimiter_positions_zero_based": [
+    20,
+    36,
+    48,
+    58,
+    74
+  ],
+  "delimiter_count": 5,
+  "transformed_stream": "FIABVFYFNOVRIGFRPMIIXMRBWUUDBTNAGGFEXEUGQUGGLAZZXHEQARVKPHXPTMITCDWEESZMDAXNKAZYEQJKPNAVOVHVLAJHB",
+  "segments": [
+    {
+      "index": 0,
+      "text": "FIABVFYFNOVRIGFRPMII",
+      "length": 20
+    },
+    {
+      "index": 1,
+      "text": "MRBWUUDBTNAGGFE",
+      "length": 15
+    },
+    {
+      "index": 2,
+      "text": "EUGQUGGLAZZ",
+      "length": 11
+    },
+    {
+      "index": 3,
+      "text": "HEQARVKPH",
+      "length": 9
+    },
+    {
+      "index": 4,
+      "text": "PTMITCDWEESZMDA",
+      "length": 15
+    },
+    {
+      "index": 5,
+      "text": "NKAZYEQJKPNAVOVHVLAJHB",
+      "length": 22
+    }
+  ],
+  "segment_lengths": [
+    20,
+    15,
+    11,
+    9,
+    15,
+    22
+  ],
+  "matches_recorded_segment_lengths": true,
+  "shuffled_control": {
+    "method": "uniform random permutation of stream characters; exact character multiset preserved",
+    "sample_size": 5000,
+    "seed": 20261015,
+    "target_segment_lengths": [
+      20,
+      15,
+      11,
+      9,
+      15,
+      22
+    ],
+    "input_delimiter_count": 5,
+    "character_multiset_preserved": true,
+    "exact_signature_hits": 0,
+    "observed_hit_rate": 0.0,
+    "interpretation": "Descriptive conditional control only, not a p-value or independent evidence. The target signature was observed after inspecting this stream, and selection across delimiters, alphabets, transformations, orientations, and other patterns is not accounted for."
+  },
+  "rotation_control": {
+    "tested_circular_offsets": 97,
+    "offsets_matching_recorded_segment_lengths": [
+      0
+    ],
+    "unique_segment_length_signatures": 97,
+    "interpretation": "Circular-alignment sensitivity check only. The target segment lengths were observed from this same stream, so this is not an independent significance test."
+  },
+  "historical_baseline": {
+    "original_city_names": 80,
+    "source": "Official Urania World Clock history page; original display described as 80 city names across 24 time zones.",
+    "source_url": "https://www.weltzeituhr-berlin.de/en/urania-worldtimeclock",
+    "segment_letters_total": 92,
+    "difference_letters_minus_city_names": 12,
+    "interpretation": "The 92 non-delimiter letters do not map one-to-one to the documented 80 original city names without an additional, independently justified rule."
+  },
+  "limitations": [
+    "The inverse keyed-alphabet relabeling and X delimiter choice are a specified candidate, not an established K4 mechanism.",
+    "The segment lengths are not a match to the documented 80-city original display.",
+    "No physical plate order, UTC assignment, clock orientation, or plaintext is inferred.",
+    "A crib-conditioned fit is not independent validation; rotation and shuffled controls are descriptive only and do not account for hypothesis-selection bias."
+  ]
+}

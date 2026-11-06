@@ -170,8 +170,13 @@ def create_fieldbook_experiment(
 def export_fieldbook_notebook(experiments: List[Dict[str, Any]], export_path: str) -> str:
     """Save a list of experiments to JSON ready to import into Rayborg's Fieldbook."""
     os.makedirs(os.path.dirname(os.path.abspath(export_path)), exist_ok=True)
+    bundle = {
+        "schema": "k4-fieldbook-experiments-v1",
+        "exportedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "experiments": experiments
+    }
     with open(export_path, "w", encoding="utf-8") as f:
-        json.dump(experiments, f, indent=2)
+        json.dump(bundle, f, indent=2)
     return export_path
 
 

@@ -1,0 +1,84 @@
+{
+  "status": "null_result",
+  "attack": "three_layer_composite_geometric",
+  "timestamp": "2026-11-06T07:17:08.290339Z",
+  "run_params": {
+    "subst_alphabets": [
+      "KRYPTOS",
+      "PALIMPSEST",
+      "ABSCISSA",
+      "STANDARD"
+    ],
+    "order_names": [
+      "row_major",
+      "col_major",
+      "boustrophedon",
+      "alternating_col",
+      "spiral",
+      "outside_in",
+      "center_out",
+      "circular_wrapped",
+      "row_major_reversed",
+      "col_major_reversed",
+      "boustrophedon_reversed",
+      "alternating_col_reversed",
+      "spiral_reversed",
+      "outside_in_reversed",
+      "center_out_reversed",
+      "circular_wrapped_reversed",
+      "route_ENE",
+      "route_NE",
+      "route_ENE_REVERSED",
+      "route_NE_REVERSED"
+    ],
+    "reflection_names": [
+      "identity",
+      "flip_h",
+      "flip_v",
+      "rotate_180"
+    ],
+    "rotation_offsets": [
+      0,
+      6,
+      -6
+    ],
+    "remainder_modes": [
+      "trailing",
+      "leading",
+      "drop"
+    ],
+    "clock_states_tested": [
+      "13:00:00",
+      "19:00:00",
+      "00:00:00",
+      "01:00:00",
+      "02:00:00",
+      "03:00:00",
+      "04:00:00",
+      "05:00:00",
+      "06:00:00",
+      "07:00:00",
+      "08:00:00",
+      "09:00:00",
+      "10:00:00",
+      "11:00:00",
+      "12:00:00",
+      "14:00:00",
+      "15:00:00",
+      "16:00:00",
+      "17:00:00",
+      "18:00:00",
+      "20:00:00",
+      "21:00:00",
+      "22:00:00",
+      "23:00:00"
+    ],
+    "full_clock_sweep": true,
+    "total_tested": 69120,
+    "positional_eureka_threshold": 3,
+    "keyword_eureka_threshold": 4,
+    "ts_start": "2026-11-06T07:17:08.290339Z"
+  },
+  "best_candidates": [],
+  "null_artifact_path": "/Users/jassi/Documents/K4/K4_3LAYER_GEOMETRIC_FULL_NULL.json"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "attack": "cross_vector_consensus",
+  "artifacts_scanned": 10,
+  "vectors_with_candidates": 6,
+  "vector_candidate_counts": {
+    "K4_P19_ADVISORY_NULL.json": 10,
+    "K4_GEOMETRY_COMBINED_SHAPECHANGING_NULL.json": 10,
+    "K4_3LAYER_GEOMETRIC_SHAPECHANGING_NULL.json": 2,
+    "K4_WORLD_CLOCK_CITIES_NULL.json": 10,
+    "K4_GEOMETRY_COMBINED_GEO_NULL.json": 10,
+    "K4_GEOMETRY_COMBINED_TOPPER_ROTATION_NULL.json": 10
+  },
+  "min_distinct_vectors": 3,
+  "consensus_anchors_found": 0,
+  "consensus_anchors": []
+}

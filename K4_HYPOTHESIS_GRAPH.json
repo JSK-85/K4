@@ -1,0 +1,75 @@
+{
+  "edges": {
+    "BERLIN_WORLD_CLOCK->COORD_SYSTEM_24": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "CLOCK_VIGENERE_LAYER->THREE_LAYER_GEOMETRIC_COMPOSITE": {
+      "evidence": "/Users/jassi/Documents/K4/K4_3LAYER_GEOMETRIC_SHAPECHANGING_NULL.json",
+      "status": "null",
+      "updated": "2026-11-06T07:17:20.031567Z"
+    },
+    "COORD_SYSTEM_24->GRID_4X24_PLUS_1": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "DIRECTIONAL_TRAVERSAL->BERLIN_WORLD_CLOCK": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "EASTNORTHEAST->DIRECTIONAL_TRAVERSAL": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "GEOMETRIC_POSITIONAL_TRANSFORM->SUBSTITUTION_LAYER": {
+      "evidence": "/Users/jassi/Documents/K4/K4_GEOMETRY_COMBINED_TOPPER_ROTATION_NULL.json",
+      "status": "null",
+      "updated": "2026-11-06T07:17:02.210984Z"
+    },
+    "GRID_4X24_PLUS_1->GEOMETRIC_POSITIONAL_TRANSFORM": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "K4_CIPHERTEXT->EASTNORTHEAST": {
+      "evidence": "Sanborn-confirmed crib; kryptos.k4.keystream_validator.K4_CRIBS",
+      "status": "confirmed"
+    },
+    "KRYPTOS_PHYSICAL_STRUCTURE->COMPASS_LODESTONE": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "KRYPTOS_PHYSICAL_STRUCTURE->FRONT_BACK_LAYERS": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "KRYPTOS_PHYSICAL_STRUCTURE->K4_CIPHERTEXT": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "KRYPTOS_PHYSICAL_STRUCTURE->VIGENERE_TABLEAU_REVERSE": {
+      "evidence": "",
+      "status": "untested"
+    },
+    "SUBSTITUTION_LAYER->CLOCK_VIGENERE_LAYER": {
+      "evidence": "/Users/jassi/Documents/K4/K4_3LAYER_GEOMETRIC_SHAPECHANGING_NULL.json",
+      "status": "null",
+      "updated": "2026-11-06T07:17:20.031533Z"
+    }
+  },
+  "nodes": [
+    "KRYPTOS_PHYSICAL_STRUCTURE",
+    "COMPASS_LODESTONE",
+    "FRONT_BACK_LAYERS",
+    "VIGENERE_TABLEAU_REVERSE",
+    "K4_CIPHERTEXT",
+    "EASTNORTHEAST",
+    "DIRECTIONAL_TRAVERSAL",
+    "BERLIN_WORLD_CLOCK",
+    "COORD_SYSTEM_24",
+    "GRID_4X24_PLUS_1",
+    "GEOMETRIC_POSITIONAL_TRANSFORM",
+    "SUBSTITUTION_LAYER",
+    "CLOCK_VIGENERE_LAYER",
+    "THREE_LAYER_GEOMETRIC_COMPOSITE"
+  ]
+}
