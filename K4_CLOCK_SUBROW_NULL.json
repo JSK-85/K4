@@ -1,0 +1,128 @@
+{
+  "status": "null_result",
+  "attack": "clock_subrow_vigenere",
+  "timestamp": "2026-11-06T08:00:59.227586Z",
+  "run_params": {
+    "clock_step_seconds": 120,
+    "encoding_schemes": [
+      "5hour_row",
+      "top_2_rows",
+      "minutes_only",
+      "row_sum_keyed_offset"
+    ],
+    "total_tested": 2880,
+    "keyword_eureka_threshold": 4,
+    "ts_start": "2026-11-06T08:00:59.227586Z"
+  },
+  "best_candidates": [
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:00:00",
+      "encoding_scheme": "5hour_row",
+      "shifts": [
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:00:00",
+      "encoding_scheme": "top_2_rows",
+      "shifts": [
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:00:00",
+      "encoding_scheme": "minutes_only",
+      "shifts": [
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:00:00",
+      "encoding_scheme": "row_sum_keyed_offset",
+      "shifts": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:02:00",
+      "encoding_scheme": "5hour_row",
+      "shifts": [
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:02:00",
+      "encoding_scheme": "top_2_rows",
+      "shifts": [
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:04:00",
+      "encoding_scheme": "5hour_row",
+      "shifts": [
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:04:00",
+      "encoding_scheme": "top_2_rows",
+      "shifts": [
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:06:00",
+      "encoding_scheme": "5hour_row",
+      "shifts": [
+        0
+      ]
+    },
+    {
+      "candidate_text": "OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR",
+      "keyword_hits": 0,
+      "crib_hits": 4,
+      "clock_time": "00:06:00",
+      "encoding_scheme": "top_2_rows",
+      "shifts": [
+        0,
+        0
+      ]
+    }
+  ],
+  "null_artifact_path": "/Users/jassi/Documents/K4/K4_CLOCK_SUBROW_NULL.json"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "null_result",
+  "attack": "clock_lamp_transposition",
+  "timestamp": "2026-11-06T08:00:53.415199Z",
+  "run_params": {
+    "clock_step_seconds": 120,
+    "total_tested": 5168,
+    "keyword_eureka_threshold": 4,
+    "ts_start": "2026-11-06T08:00:53.415199Z"
+  },
+  "best_candidates": [],
+  "null_artifact_path": "/Users/jassi/Documents/K4/K4_CLOCK_TRANSPOS_NULL.json"
+}
